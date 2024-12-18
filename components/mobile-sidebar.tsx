@@ -23,10 +23,11 @@ const MobileSidebar = () => {
         <Button variant='ghost' size='icon' className='md:hidden'>
           <Menu />
         </Button>
-        <SheetContent side='left' className='p-0'>
-          <Sidebar />
-        </SheetContent>
       </SheetTrigger>
+      <SheetContent side='left' className='p-0'>
+        <Sidebar />
+        {/* isPro={isPro} apiLimitCount={apiLimitCount} /> */}
+      </SheetContent>
     </Sheet>
   );
 };
